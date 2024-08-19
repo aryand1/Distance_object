@@ -2,14 +2,22 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif; /* Adjust as per your actual font choice */
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    background: linear-gradient(180deg, #0047ab, #000051); /* Adjusted gradient */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 header {
-    background-color: #000051; /* Dark blue */
     color: white;
     padding: 20px;
-    text-align: left;
+    background-color: transparent; /* Ensures no block color behind the text */
+    z-index: 2; /* Ensures text stays on top */
 }
 
 .logo {
@@ -22,14 +30,16 @@ header {
 }
 
 main {
-    background: linear-gradient(180deg, #0047ab, #000051); /* Gradient from the image */
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh; /* Adjust based on your design needs */
+    overflow: hidden; /* Prevents any overflow */
 }
 
 .network-graph {
-    width: 80%; /* Scale as needed */
+    width: 100%; /* Full width of the main section */
     height: auto;
+    position: relative; /* Proper positioning */
+    z-index: 1; /* Keeps the image behind the text */
 }

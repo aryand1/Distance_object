@@ -1,24 +1,35 @@
+/* Basic Reset */
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif; /* Adjust as per your actual font choice */
 }
 
 header {
-    background-color: black;
+    background-color: #000051; /* Dark blue */
     color: white;
     padding: 20px;
-    text-align: center;
+    text-align: left;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 16px;
 }
 
 main {
-    background-color: blue;
-    color: white;
-    text-align: center;
-    padding: 50px 0;
+    background: linear-gradient(180deg, #0047ab, #000051); /* Gradient from the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Adjust based on your design needs */
 }
 
-section img {
-    max-width: 100%;
+.network-graph {
+    width: 80%; /* Scale as needed */
     height: auto;
 }

@@ -8,8 +8,22 @@ body {
   --font-inter: Inter;
 
   /* font sizes */
+  --font-size-31xl: 50px;
+  --font-size-21xl: 40px;
+  --font-size-11xl: 30px;
   --font-size-29xl: 48px;
+  --font-size-19xl: 38px;
+  --font-size-10xl: 29px;
 
   /* Colors */
   --color-white: #fff;
+  --color-silver: #bfbfbf;
+  --color-yellowgreen: #c6d64d;
+
+  /* Gaps */
+  --gap-lg: 18px;
+
+  /* Paddings */
+  --padding-43xl: 62px;
+  --padding-12xl: 31px;
 }

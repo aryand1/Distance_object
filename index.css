@@ -1,0 +1,437 @@
+.ontochoice {
+  width: 345px;
+  position: relative;
+  font-weight: 900;
+  display: inline-block;
+  max-width: 100%;
+}
+.choosing-terms-and {
+  margin: 0;
+}
+.choosing-terms-and-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 105px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.layout {
+  width: 668px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 71px;
+  min-width: 668px;
+  max-width: 100%;
+}
+.back-image-icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 142px;
+  max-height: 100%;
+  width: 688px;
+  object-fit: cover;
+}
+.network-graphic-1-icon {
+  position: absolute;
+  top: 76px;
+  left: 0;
+  width: 724px;
+  height: 452px;
+  object-fit: cover;
+  z-index: 1;
+}
+.back-image-parent {
+  align-self: stretch;
+  height: 603px;
+  position: relative;
+}
+.frame-wrapper,
+.layout-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 6px 0 0;
+  box-sizing: border-box;
+  min-width: 539px;
+}
+.layout-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 51px;
+}
+.innovation-thats-consistent {
+  width: 823px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 117%;
+}
+.consistent-innovation {
+  width: 727px;
+  border: 4px solid var(--color-yellowgreen);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 9px 0 15px 12px;
+  min-height: 97px;
+  z-index: 1;
+}
+.consistent-innovation,
+.consistent-innovation-wrapper,
+.structure {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.consistent-innovation-wrapper {
+  height: 93px;
+  flex-direction: row;
+  padding: 0 0 0 4px;
+}
+.structure {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-43xl);
+  gap: 12px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.here-is-some-container {
+  margin: 0;
+  width: 1280px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.icbo-poster-vertical-portrait {
+  height: 1783px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.icbo-poster-vertical-portrait-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 13px;
+  box-sizing: border-box;
+}
+.icbo-poster-vertical-portrait-wrapper,
+.poster,
+.showcase {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.poster {
+  width: 1293px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 73px;
+}
+.showcase {
+  width: 1455px;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  font-size: 90px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.macbook-pro-16-1-child {
+  width: 99px;
+  height: 94px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.start-already {
+  width: 328px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.start-already-wrapper {
+  width: 382px;
+  border: 4px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 23px 21px 22px 25px;
+  min-height: 118px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.contact,
+.john-graybeal {
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+}
+.contact {
+  width: 278px;
+  height: 66px;
+  flex-shrink: 0;
+}
+.john-graybeal {
+  width: 346px;
+  max-width: 100%;
+}
+.jbgraybealsonicnet {
+  position: relative;
+  font-weight: 200;
+  white-space: nowrap;
+}
+.contact-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+  max-width: 100%;
+}
+.connect {
+  align-self: stretch;
+  gap: 8px;
+  flex-shrink: 0;
+  font-size: var(--font-size-31xl);
+  color: var(--color-silver);
+}
+.connect,
+.frame-parent,
+.prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  align-self: stretch;
+  gap: 230px;
+}
+.prompt {
+  width: 497px;
+  padding: 0 0 43px;
+  box-sizing: border-box;
+  min-width: 497px;
+  min-height: 595px;
+}
+.people-8027909-1-icon {
+  height: 911px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.innovate-with-us {
+  margin: 0 !important;
+  height: 168px;
+  width: 585px;
+  position: absolute;
+  top: -51px;
+  left: -550px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.collaboration {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 499px;
+  font-size: 93px;
+}
+.call-to-action,
+.collaboration,
+.prompt-parent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.prompt-parent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 53px;
+}
+.call-to-action {
+  width: 1441px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-43xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.macbook-pro-16-1 {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 146px 106px 123px 73px;
+  box-sizing: border-box;
+  gap: 258px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1425px) {
+  .layout {
+    flex: 1;
+  }
+  .layout-parent {
+    flex-wrap: wrap;
+  }
+  .prompt {
+    flex: 1;
+  }
+  .prompt-parent {
+    flex-wrap: wrap;
+  }
+  .call-to-action {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .collaboration,
+  .layout,
+  .prompt {
+    min-width: 100%;
+  }
+  .macbook-pro-16-1 {
+    gap: 129px;
+    padding-left: 36px;
+    padding-right: 53px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .ontochoice {
+    font-size: var(--font-size-19xl);
+  }
+  .choosing-terms-and-container {
+    font-size: 52px;
+  }
+  .layout {
+    gap: 35px;
+  }
+  .frame-wrapper {
+    min-width: 100%;
+  }
+  .layout-parent {
+    gap: 25px;
+  }
+  .innovation-thats-consistent {
+    font-size: var(--font-size-19xl);
+  }
+  .structure {
+    padding-bottom: 40px;
+    box-sizing: border-box;
+  }
+  .here-is-some-container {
+    font-size: 45px;
+  }
+  .poster {
+    gap: 36px;
+  }
+  .start-already {
+    font-size: var(--font-size-19xl);
+  }
+  .contact,
+  .jbgraybealsonicnet,
+  .john-graybeal {
+    font-size: var(--font-size-21xl);
+  }
+  .frame-parent {
+    gap: 115px;
+  }
+  .prompt {
+    padding-bottom: 28px;
+    box-sizing: border-box;
+  }
+  .innovate-with-us {
+    font-size: 46px;
+  }
+  .prompt-parent {
+    gap: 26px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ontochoice {
+    font-size: var(--font-size-10xl);
+  }
+  .choosing-terms-and-container {
+    font-size: 31px;
+  }
+  .layout {
+    gap: var(--gap-lg);
+  }
+  .innovation-thats-consistent {
+    font-size: var(--font-size-10xl);
+  }
+  .structure {
+    padding-bottom: 26px;
+    box-sizing: border-box;
+  }
+  .here-is-some-container {
+    font-size: 27px;
+  }
+  .poster {
+    gap: var(--gap-lg);
+  }
+  .start-already {
+    font-size: var(--font-size-10xl);
+  }
+  .contact,
+  .jbgraybealsonicnet,
+  .john-graybeal {
+    font-size: var(--font-size-11xl);
+  }
+  .innovate-with-us {
+    font-size: 28px;
+  }
+  .macbook-pro-16-1 {
+    gap: 64px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

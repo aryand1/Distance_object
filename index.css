@@ -68,6 +68,7 @@
   align-self: stretch;
   flex-direction: row;
   gap: 51px;
+  flex-shrink: 0;
 }
 .innovation-thats-consistent {
   width: 823px;
@@ -75,20 +76,9 @@
   font-weight: 500;
   display: inline-block;
   flex-shrink: 0;
-  max-width: 117%;
-}
-.consistent-innovation {
-  width: 727px;
-  border: 4px solid var(--color-yellowgreen);
-  overflow: hidden;
-  flex-shrink: 0;
-  flex-direction: row;
-  padding: 9px 0 15px 12px;
-  min-height: 97px;
-  z-index: 1;
+  max-width: 118%;
 }
 .consistent-innovation,
-.consistent-innovation-wrapper,
 .structure {
   display: flex;
   align-items: flex-start;
@@ -96,15 +86,20 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.consistent-innovation-wrapper {
-  height: 93px;
+.consistent-innovation {
+  width: 727px;
+  border: 4px solid var(--color-yellowgreen);
+  overflow: hidden;
   flex-direction: row;
-  padding: 0 0 0 4px;
+  padding: 9px 0 15px 16px;
+  min-height: 97px;
+  flex-shrink: 0;
+  z-index: 1;
 }
 .structure {
-  align-self: stretch;
+  width: 1549px;
   flex-direction: column;
-  padding: 0 0 var(--padding-43xl);
+  padding: 0 0 152px;
   gap: 12px;
   text-align: left;
   font-size: var(--font-size-29xl);
@@ -122,37 +117,28 @@
   max-width: 100%;
 }
 .icbo-poster-vertical-portrait {
-  height: 1783px;
-  flex: 1;
+  width: 1280px;
   position: relative;
-  max-width: 100%;
-  overflow: hidden;
+  max-height: 100%;
   object-fit: cover;
-}
-.icbo-poster-vertical-portrait-wrapper {
-  align-self: stretch;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding: 0 0 0 13px;
-  box-sizing: border-box;
+  max-width: 100%;
 }
 .icbo-poster-vertical-portrait-wrapper,
-.poster,
-.showcase {
+.poster {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
+.icbo-poster-vertical-portrait-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 .poster {
-  width: 1293px;
+  width: 1468px;
   flex-direction: column;
   justify-content: flex-start;
   gap: 73px;
-}
-.showcase {
-  width: 1455px;
-  flex-direction: row;
-  justify-content: center;
   text-align: left;
   font-size: 90px;
   color: var(--color-white);
@@ -166,27 +152,46 @@
   flex-shrink: 0;
   display: none;
 }
+.innovate-with-us,
 .start-already {
-  width: 328px;
   position: relative;
   font-weight: 500;
   display: inline-block;
   flex-shrink: 0;
+}
+.innovate-with-us {
+  margin: 0;
+  align-self: stretch;
+  height: 200.7px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.start-already {
+  width: 328px;
   max-width: 100%;
 }
+.innovation-action,
 .start-already-wrapper {
-  width: 382px;
-  border: 4px solid var(--color-yellowgreen);
-  box-sizing: border-box;
-  overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 23px 21px 22px 25px;
-  min-height: 118px;
+  box-sizing: border-box;
   max-width: 100%;
+}
+.start-already-wrapper {
+  flex: 1;
+  border: 4px solid var(--color-yellowgreen);
+  overflow: hidden;
+  padding: 23px 21px 22px var(--padding-6xl);
+  min-height: 118px;
   flex-shrink: 0;
+}
+.innovation-action {
+  width: 378px;
+  height: 151.6px;
+  padding: 0 0 37.6px;
+  font-size: var(--font-size-29xl);
 }
 .contact,
 .john-graybeal {
@@ -209,7 +214,6 @@
   white-space: nowrap;
 }
 .contact-info {
-  align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -218,82 +222,73 @@
   max-width: 100%;
 }
 .connect {
-  align-self: stretch;
+  flex-direction: column;
   gap: 8px;
-  flex-shrink: 0;
+}
+.connect,
+.connect-wrapper,
+.innovate-with-us-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.connect-wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-6xl);
+  box-sizing: border-box;
   font-size: var(--font-size-31xl);
   color: var(--color-silver);
 }
-.connect,
-.frame-parent,
-.prompt {
-  display: flex;
+.innovate-with-us-parent {
+  width: 585px;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.frame-parent {
-  align-self: stretch;
-  gap: 230px;
-}
-.prompt {
-  width: 497px;
-  padding: 0 0 43px;
-  box-sizing: border-box;
-  min-width: 497px;
-  min-height: 595px;
+  gap: 192.4px;
+  min-width: 585px;
 }
 .people-8027909-1-icon {
-  height: 911px;
-  flex: 1;
+  align-self: stretch;
+  height: 946px;
   position: relative;
   max-width: 100%;
   overflow: hidden;
+  flex-shrink: 0;
   object-fit: cover;
 }
-.innovate-with-us {
-  margin: 0 !important;
-  height: 168px;
-  width: 585px;
-  position: absolute;
-  top: -51px;
-  left: -550px;
-  font-size: inherit;
-  font-weight: 500;
-  font-family: inherit;
-  display: inline-block;
-  z-index: 1;
-}
-.collaboration {
+.frame-parent,
+.showcase {
   flex: 1;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: relative;
-  min-width: 499px;
-  font-size: 93px;
-}
-.call-to-action,
-.collaboration,
-.prompt-parent {
   display: flex;
-  flex-direction: row;
   max-width: 100%;
 }
-.prompt-parent {
-  flex: 1;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 53px;
-}
-.call-to-action {
-  width: 1441px;
+.showcase {
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-43xl);
+  padding: 0 0 12px;
   box-sizing: border-box;
+  min-width: 579px;
+}
+.frame-parent {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.call-to-action,
+.macbook-pro-16-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.call-to-action {
+  width: 1498px;
+  flex-direction: row;
+  padding: 0 11px;
+  max-width: 100%;
   text-align: left;
-  font-size: var(--font-size-29xl);
+  font-size: 93px;
   color: var(--color-white);
   font-family: var(--font-inter);
 }
@@ -302,49 +297,42 @@
   position: relative;
   background-color: #000;
   overflow: hidden;
-  display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: 146px 106px 123px 73px;
-  box-sizing: border-box;
-  gap: 258px;
+  padding: 146px 73px 166px;
+  gap: 168px;
   line-height: normal;
   letter-spacing: normal;
 }
-@media screen and (max-width: 1425px) {
+@media screen and (max-width: 1350px) {
   .layout {
     flex: 1;
   }
   .layout-parent {
     flex-wrap: wrap;
   }
-  .prompt {
+  .innovate-with-us-parent {
     flex: 1;
   }
-  .prompt-parent {
+  .frame-parent {
     flex-wrap: wrap;
   }
-  .call-to-action {
-    padding-left: var(--padding-12xl);
-    padding-right: var(--padding-12xl);
+  .macbook-pro-16-1 {
+    gap: 84px;
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 1200px) {
-  .collaboration,
-  .layout,
-  .prompt {
+@media screen and (max-width: 1125px) {
+  .layout {
     min-width: 100%;
   }
-  .macbook-pro-16-1 {
-    gap: 129px;
-    padding-left: 36px;
-    padding-right: 53px;
+  .structure {
+    padding-bottom: 99px;
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 800px) {
   .ontochoice {
     font-size: var(--font-size-19xl);
   }
@@ -363,15 +351,14 @@
   .innovation-thats-consistent {
     font-size: var(--font-size-19xl);
   }
-  .structure {
-    padding-bottom: 40px;
-    box-sizing: border-box;
-  }
   .here-is-some-container {
     font-size: 45px;
   }
   .poster {
     gap: 36px;
+  }
+  .innovate-with-us {
+    font-size: 46px;
   }
   .start-already {
     font-size: var(--font-size-19xl);
@@ -381,18 +368,15 @@
   .john-graybeal {
     font-size: var(--font-size-21xl);
   }
-  .frame-parent {
-    gap: 115px;
+  .innovate-with-us-parent {
+    gap: 96px;
+    min-width: 100%;
   }
-  .prompt {
-    padding-bottom: 28px;
-    box-sizing: border-box;
+  .showcase {
+    min-width: 100%;
   }
-  .innovate-with-us {
-    font-size: 46px;
-  }
-  .prompt-parent {
-    gap: 26px;
+  .macbook-pro-16-1 {
+    gap: 42px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -409,7 +393,7 @@
     font-size: var(--font-size-10xl);
   }
   .structure {
-    padding-bottom: 26px;
+    padding-bottom: 64px;
     box-sizing: border-box;
   }
   .here-is-some-container {
@@ -417,6 +401,9 @@
   }
   .poster {
     gap: var(--gap-lg);
+  }
+  .innovate-with-us {
+    font-size: 28px;
   }
   .start-already {
     font-size: var(--font-size-10xl);
@@ -426,12 +413,10 @@
   .john-graybeal {
     font-size: var(--font-size-11xl);
   }
-  .innovate-with-us {
-    font-size: 28px;
+  .innovate-with-us-parent {
+    gap: 48px;
   }
   .macbook-pro-16-1 {
-    gap: 64px;
-    padding-right: 20px;
-    box-sizing: border-box;
+    gap: 21px;
   }
 }
